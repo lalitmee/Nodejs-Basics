@@ -12,7 +12,7 @@ mongoose.connect('mongodb://localhost/userstory', function (err) {
     } else{
         console.log('Connected to the database');
     }
-})
+});
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
